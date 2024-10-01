@@ -1,0 +1,43 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.barra {
+    background-color: #0c5e99;
+    color: #ffffff;
+    padding: 0!important;
+    justify-content: left!important;
+}
+.links {
+    font-size: 15px;
+}
+.links:hover {
+    background-color: #00528d;
+}
+.productos{
+    display: flex;
+    margin: 2%;
+}
+.card{
+    margin: 1%;
+}
+.domicilio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boton{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
+.foot {
+    background-color: #0c5e99;
+    color: #ffffff;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    padding-left: 3%;
+}

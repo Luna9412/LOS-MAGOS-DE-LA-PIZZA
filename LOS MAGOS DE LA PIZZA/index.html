@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAGOS DE LA PIZZA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+  <body>
+        <nav class="navbar navbar-expand-lg barra">
+            <div class="container-fluid">
+                <img src="images/logo.png" width="60" height="60" alt="" srcset="">
+                <a class="nav-link p-4 links" aria-current="page" href="#"><img src="images/globo.svg" height="20" alt="" srcset=""> PIDE EN LINEA</a>
+                <a class="nav-link p-4 links" href="#"><img src="images/menu.svg" height="20" alt="" srcset=""> MENÚ</a>
+                <a class="nav-link p-4 links" href="#"><img src="images/tienda.svg" height="20" alt=""> TIENDAS</a>
+                <a class="nav-link p-4 links" href="#"><img src="images/pedido.svg" height="20" alt="" srcset=""> SIGUE TU PEDIDO</a>
+                <a class="nav-link p-4 links" href="#"><img src="images/cupon.svg" height="20" alt="" srcset=""> CUPONES</a>
+                <a class="nav-link p-4 links" href="#"><img class="imagen" src="images/user.svg" height="20" srcset=""> INICIAR SESION</a>
+                <a class="nav-link p-4 links" href="#"><img src="images/car.svg" height="20" alt="" srcset=""> CARRITO</a>
+            </div>
+        </nav>
+        <div class="domicilio">
+            <h3>ELIGE UNA OPCION</h3>
+            <button type="button" class="btn btn-danger boton">DOMICILIO</button>
+            <h3>ó</h3>
+            <button type="button" class="btn btn-danger boton">RECOGER</button>
+        </div>
+        <!--ACCORDION -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  PIZZAS CLASICAS
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="productos">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/pepperoni.jpg" height="150"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pepperoni</h5>
+                              <p class="card-text">Salsa de tomate y queso mozzarella cubiertos con generosas rebanadas de pepperoni crujiente.</p>
+                              <h3>$ 25.000$</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/napolitana.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Napolitana</h5>
+                              <p class="card-text">Salsa de tomate, mozzarella y albahaca fresca, combinados para una experiencia tradicional italiana.</p>
+                              <h3>$ 30.000$</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/hawaiana.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hawaiana</h5>
+                              <p class="card-text">Salsa de tomate, queso mozzarella, jamón y piña, para un contraste dulce y salado irresistible.</p>
+                              <h3>$ 35.000$</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/champiñones.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Champiñones</h5>
+                              <p class="card-text">Salsa de tomate, mozzarella y champiñones salteados, para una combinación de sabores ricos y suaves.</p>
+                              <h3>$ 40.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ADICIONALES
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="productos">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Borde.jpg" height="150"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Borde de queso</h5>
+                              <p class="card-text">¡Lleva tu pizza al siguiente nivel con un borde relleno de queso fundido! Cada mordisco ofrece una deliciosa sorpresa de queso extra.</p>
+                              <h3>$ 5.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/queso.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Extra Queso</h5>
+                              <p class="card-text">Añade una generosa capa de queso mozzarella extra, derritiéndose y fundiéndose para un sabor aún más cremoso y sabroso.</p>
+                              <h3>$ 7.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/ingredientes.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Aumentar Ingredientes</h5>
+                              <p class="card-text">Personaliza tu pizza con más de tus ingredientes favoritos, ya sean carnes, vegetales o cualquier adición deliciosa que desees.</p>
+                              <h3>$ 4.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/masa.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Masa Italiana</h5>
+                              <p class="card-text">Disfruta de una masa auténticamente italiana, con una textura ligera y crujiente que realza cada bocado de tu pizza.</p>
+                              <h3>$ 10.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ACOMPAÑANTES
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="productos">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/palitos.jpg" height="150"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Palitos de Queso</h5>
+                              <p class="card-text">Crujientes por fuera y suaves por dentro, estos palitos de queso están empanados y fritos a la perfección, ideales para acompañar cualquier pizza.</p>
+                              <h3>$ 20.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/pan.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pan de Ajo</h5>
+                              <p class="card-text">Deliciosos trozos de pan, cubiertos con una mezcla de mantequilla, ajo y perejil, horneados hasta obtener un sabor dorado y aromático.</p>
+                              <h3>$ 8.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/rollos.jpg" height="150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Rollos de Arequipe</h5>
+                              <p class="card-text">Suaves rollos rellenos de dulce arequipe, perfectos para un toque dulce al final de la comida.</p>
+                              <h3>$ 10.000</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/gaseosa.jpg" height="250" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Gaseosa 1L</h5>
+                              <p class="card-text"></p>
+                              <h3>$ 7.500</h3>
+                              <a href="#" class="btn btn-primary"><img src="images/car.svg" height="20" alt="" srcset=""> Añadir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <h2>TOTAL : <span id="total" class="badge text-bg-secondary"></span></h2>
+                <h4>PIZZAS : <span id="pizzas" ></span></h4>
+                <h4>ADICIONALES : <span id="adicionales" ></span></h4>
+                <h4>ACOMPAÑANTES : <span id="acompanantes" ></span></h4>
+                <button type="button" class="btn btn-danger">TERMINAR PEDIDO</button>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
